@@ -1,0 +1,527 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+ .hero{
+  height: 100vh;
+  width: 100%;
+  background-image: url(./WhatsApp\ Image\ 2024-01-27\ at\ 18.22.38_5a041884.jpg);
+  background-size: cover;
+    background-position: center;
+  
+ }
+
+ nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+    background-color: rgba(255,255,255,0.1);
+    backdrop-filter:blur(10px);
+ }
+ .logo{
+    color:pink;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    
+ }
+
+ span{
+    color: purple;
+ }
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding:10px 30px;
+}
+nav ul li a{
+    color: white;
+    cursor: pointer;
+    
+
+}
+nav ul li a:hover{
+    color: purple;
+    transition: .4s;
+}
+
+.icons{
+    color: white;
+    display: flex;
+    letter-spacing: 10px;   
+}
+h1{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    ;
+}
+h3{
+    padding-top: 9px;
+    font-stretch: expanded;
+}
+.p{
+    text-align: center;
+    margin-top: 8pt;
+    text-transform: uppercase;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.content{
+    position:absolute;
+    top:50%;
+   left:4%;
+   transform:translateY(-50%);
+}
+#services{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly ;
+    align-items: center;
+    margin:20px  50px ;
+}
+
+
+#services img{
+    height: 140px;
+    width: 156px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.second{
+    display: inline-block;
+    height: 40vh;
+width:100%;
+background-color: white;
+
+
+}
+.ml{
+    text-transform: uppercase;
+    padding-top: 2%;
+    text-align: center;
+    justify-content: center;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.one{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly ;
+    align-items: center;
+    margin:20px  50px ;
+}
+    
+    
+.one img{
+    height: 140px;
+    width: 156px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+.ba{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+
+}
+.header{
+    padding-top: 5%;
+    text-transform: uppercase;
+    color: white;
+    margin-left: 200px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+
+
+}
+
+
+.hy{
+    color: white;
+    padding-top: 25px;
+    margin-left: 140px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+
+}
+
+.ma{
+    color: white;
+    position: absolute;
+    margin-left: 100px;
+    padding-top: 20px;
+    justify-content: center;
+    letter-spacing: 1px;
+    
+}
+
+.two{
+    float: right;
+    height: 70px;
+    width: 40%;
+
+}
+
+.next{
+    height:60vh ;
+    width: 100%;
+    background-color: white;
+}
+.inox{
+    display: flex;
+    flex-direction: row;
+    padding-top: 5%;
+    justify-content: space-evenly;
+    cursor: pointer;
+
+     
+}
+.inox img{
+    height:160px;
+    width: 180px;
+    border-radius:50%;    
+}
+
+.ly{
+  font-size: 25px;
+  background-color: grey;
+  color: black;
+  border: 2px solid transparent;
+cursor: pointer;
+margin-top: 300px;
+margin-left: 150px;
+border-radius: 20px;
+font-weight: bold;
+padding: 10px 30px;
+transition: .4s;
+}
+
+.ly:hover{
+    background-color:white;
+    border: 2px solid transparent;
+    cursor: pointer;
+
+}
+
+
+
+.txt{
+    position: relative;
+    top: -144px;
+    background-color:rgba(255,255,255,0.1);
+    height: 140px;
+    width: 250px;
+    border-radius: 50%;
+    display: flex;
+
+}
+
+.txt p{
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 45px;
+    font-weight: bolder;
+    
+}
+
+.ds{
+    height:100vh;
+    width:100%;
+    background-color: black;
+    color: white;
+    background-image: url(./WhatsApp\ Image\ 2024-02-02\ at\ 20.51.03_fd4be37e.jpg);
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+
+.kk{
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 60px;
+    margin-left: 500px;
+    padding-bottom: 30px;
+}
+.mm{
+    color: red;
+    font-family:fantasy;
+    margin-left: 370px;
+    padding-bottom: 30px; 
+    text-transform: uppercase;
+}
+
+.z{
+    font-size: larger;
+    color:white;
+    margin-left: 370px;
+    letter-spacing: 1px;
+    padding-top: 10px;
+    font-weight: bold;
+    
+    
+}
+
+.y{
+    border-radius: 6px;
+    background:radial-gradient(circle,rgba(237,184,200,1));
+    color: black;
+    
+}
+
+.xx{
+    font-size: 20px;
+  border:5px solid transparent;
+  background-color: red;
+  color: black;
+cursor: pointer;
+margin-left: 560px;    
+border-radius: 16px;
+margin-top: 70px;
+
+}
+
+.sect{
+    height:120vh;
+    width:100%;
+    background-color:white;
+}
+.hom{
+    color: black;
+    text-align: center;
+    padding-top: 40px;
+
+}
+
+.zoy{
+    color: burlywood;
+}
+
+.head{
+    color:black;
+    padding-top: 40px;
+    text-align: center;
+}
+.box{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 600px;
+    
+}
+
+.card{
+    height: 480px;
+    width:350px;
+    padding: 20px 35px;
+    background: silver;
+    border-radius: 20px;
+    margin: 25px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+.zoy{
+    padding-top: 20px;
+    color: black;
+}
+
+.pra p{
+    color: black;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.card .button{
+    background-color:black;
+    color:white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+.card .button:hover{
+ background-color: transparent;
+border: 2px solid gray;
+cursor: pointer;
+
+
+}
+ .mon{
+    background-color:black;
+    color:white;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 30px;
+    cursor: pointer;
+   border-radius: 30px;
+   text-align: center;
+   margin-left: 680px;
+margin-top: 10px;
+}
+.new{
+    height: 600px;
+    width:100%;
+    background-image: url(./WhatsApp\ b.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.moye{
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 40px;
+}
+.mnb{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.bob{
+    text-align: center;
+    color: white;
+    font-size: larger;
+    letter-spacing: 1px;
+    padding-top: 80px;
+    font-weight: bold;
+    
+}
+
+
+
+footer{
+    background-color: #111010;
+    height: 60vh;
+}
+.f-item-con{
+    padding: 1.5rem 4rem;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-gap: 2rem;
+}
+footer .app-name{
+    color: white;
+    border-left: 4px solid var(--theme-col);
+    padding-left: 1.5rem;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: 700;
+}
+.app-name .app-initial{
+    color: var(--theme-col);
+}
+footer .app-info p{
+    color: white;
+    padding-left: 1.65rem;
+}
+.ftflex  {
+    display: flex;
+    flex-direction: column;
+}
+footer .footer-title{ 
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    color: white;
+    border-left: 4px solid var(--theme-col);
+    padding-left: 1.5rem;
+}
+footer ul{ 
+    padding-left: 1.75rem;
+    color: white;
+    font-size: 0.875rem/* 14px */;
+    line-height: 1.25rem;
+    margin-top: .5rem;
+    height: 30vh;
+    width: 280px;
+}
+footer ul li{ 
+    margin: .25rem 0;
+    cursor: pointer;
+    color: #d4d4d4;
+    width: fit-content;
+}
+footer ul li:hover{
+    color: white;
+}
+footer .help-sec{
+    grid-column-start: 2;
+}
+footer .cr-con{
+    background-color: #232127;
+    color: white;
+    padding: 1rem 4rem;
+    text-align: center;
+}
+.g-i-t{
+    display: grid;
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.g-i-t form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    --tw-space-y-reverse: 0;
+    margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
+}
+form .g-inp{
+    padding: .25rem .5rem;
+    font-size: 16px;
+}
+.g-inp textarea{
+    height: 150px;
+}
+.f-btn{
+    padding: .25rem 1rem;
+    background-color: var(--theme-col);
+    border-radius: .25rem;
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
